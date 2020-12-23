@@ -3,15 +3,6 @@ spring:
     active: default
   application:
     name: associations-service
-  data:
-   mongodb:
-    authentication-database: admin
-    host: localhost
-    port: 27017
-    database: associations
-    username: root
-    password: root
-    auto-index-creation: false
 server:
   port: 9090
 
